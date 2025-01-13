@@ -24,7 +24,7 @@ This application visualizes various algorithms and fractals using a graphical in
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/CodeToGraphicsConverter.git
+   git clone https://github.com/MN10101/Code-to-Graphics-Converter
    ```
 
 2. Open the solution in Visual Studio (or your preferred C# IDE).
@@ -40,10 +40,6 @@ This application visualizes various algorithms and fractals using a graphical in
 
 - .NET 5 or higher
 - Visual Studio (or any C# compatible IDE)
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 
