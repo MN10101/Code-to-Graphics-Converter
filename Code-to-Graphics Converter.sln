@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code-to-Graphics Converter", "Code-to-Graphics Converter\Code-to-Graphics Converter.csproj", "{CFDBB95A-C952-4025-99F6-3CBC28B5B8ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFDBB95A-C952-4025-99F6-3CBC28B5B8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDBB95A-C952-4025-99F6-3CBC28B5B8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDBB95A-C952-4025-99F6-3CBC28B5B8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDBB95A-C952-4025-99F6-3CBC28B5B8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB1067FC-BAD2-43E2-8DEC-90C082EC911F}
+	EndGlobalSection
+EndGlobal

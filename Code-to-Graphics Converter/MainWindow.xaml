@@ -1,0 +1,25 @@
+﻿<Window x:Class="CodeToGraphicsConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Code-to-Graphics Converter" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Border Margin="10" Background="#EEE" DockPanel.Dock="Left">
+                <StackPanel Width="200">
+                    <TextBlock FontWeight="Bold" FontSize="16" Text="Algorithms" Margin="0,0,0,10"/>
+                    <Button Name="BubbleSortButton" Content="Visualize Bubble Sort" Margin="0,5" Height="30" Click="BubbleSortButton_Click"/>
+                    <Button Name="QuickSortButton" Content="Visualize Quick Sort" Margin="0,5" Height="30" Click="QuickSortButton_Click"/>
+                    <Button Name="MergeSortButton" Content="Visualize Merge Sort" Margin="0,5" Height="30" Click="MergeSortButton_Click"/>
+                    <Button Name="HeapSortButton" Content="Visualize Heap Sort" Margin="0,5" Height="30" Click="HeapSortButton_Click"/>
+                    <TextBlock FontWeight="Bold" FontSize="16" Text="Fractals" Margin="0,20,0,10"/>
+                    <Button Name="FractalButton" Content="Generate Mandelbrot Set" Margin="0,5" Height="30" Click="FractalButton_Click"/>
+                    <Button Name="JuliaSetButton" Content="Generate Julia Set" Margin="0,5" Height="30" Click="JuliaSetButton_Click"/>
+                    <TextBlock FontWeight="Bold" FontSize="16" Text="Settings" Margin="0,20,0,10"/>
+                    <TextBlock Text="Speed Control" Margin="0,5" />
+                    <Slider Name="SpeedSlider" Minimum="1" Maximum="10" Value="5" Margin="0,10" />
+                </StackPanel>
+            </Border>
+            <Canvas Name="RenderCanvas" Background="White" DockPanel.Dock="Right" />
+        </DockPanel>
+    </Grid>
+</Window>
