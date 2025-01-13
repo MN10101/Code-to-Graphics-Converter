@@ -45,4 +45,6 @@ This application visualizes various algorithms and fractals using a graphical in
 
 - The project uses WPF for UI and graphics rendering.
 - The algorithm visualizations are based on standard sorting algorithms and fractal generation techniques.
+---
 
+https://github.com/user-attachments/assets/e848ff67-79c9-4f9d-a284-ad45d1a74162
